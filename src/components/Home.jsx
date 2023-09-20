@@ -12,6 +12,8 @@ const Home = () => {
                 <a style={mr} href="about">about        </a>
                 <a style={mr} href="contact">contact      </a>
                 <a style={mr} href="blog">blog     </a>
+                <a style={mr} href="users">users     </a>
+                <a style={mr} href="posts">posts     </a>
             </nav>
             <h3>Nav without reload</h3>
             <nav>
@@ -19,6 +21,8 @@ const Home = () => {
                 <Link style={mr} to="about">about</Link>
                 <Link style={mr} to="contact">contact</Link>
                 <Link style={mr} to="blog">blog</Link>
+                <Link style={mr} to="users">users</Link>
+                <Link style={mr} to="posts">posts</Link>
             </nav>
             <Outlet></Outlet>
         </div>
